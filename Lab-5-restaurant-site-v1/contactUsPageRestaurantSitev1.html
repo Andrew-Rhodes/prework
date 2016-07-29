@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yard Time</title>
+	</head>
+	
+	<body>
+		
+		<center>
+		<h1>Yard Time</h1>
+		</center>
+
+		<hr>
+		
+		<span>
+			<a href="homePageRestaurantSitev1.html" style="padding: 0px 10px;">Home</a>
+			<a href="menuPageRestaurantSitev1.html" style="padding: 0px 10px;">Menu</a>
+			<a href="contactUsPageRestaurantSitev1.html" style="padding: 0px 10px;">Contact Us</a>
+		</span>
+		
+		<hr>
+
+		<form action="fakePage.html" method="POST">
+			<table cellspacing="30">
+				<tr>
+					<td align="right">Name:</td>
+					<td><input type="text" name="NAME"></input></td>
+				</tr>
+
+				<tr>
+					<td align="right">Email:</td>
+					<td><input type="text" name="EMAIL"></input></td>
+				</tr>
+				
+				<tr>
+					<td align="right">Phone:</td>
+					<td><input type="text" name="PHONE"></input></td>
+				</tr>
+
+				<tr>
+					<td align="right">Reason for Inquiry</td>
+					<td>
+					<select name="INQUIRY" style="width: 100%;">
+						<option value="CATERING">Catering</option>
+						<option value="PARTY">Private Party</option>
+						<option value="FEEDBACK">Feedback</option>
+						<option value="OTHER">Other</option>
+					</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td align="right" valign="top">Additional Information</td>
+					<td><textarea name="INFO" rows="8"></textarea></td>
+				</tr>
+
+				<tr>
+					<td align="right">Have you been to the restaurant?</td>
+					<td>
+						<input type="radio" name="PATRON" value="NO" checked>No</input>
+						<input type="radio" name="PATRON" value="YES">Yes</input>
+					</td>
+				</tr>
+
+				<tr>
+					<td align="right">Best days to contact you:</td>
+					<td>
+						<input type="checkbox" name="DAYS" value="M">M</input>
+						<input type="checkbox" name="DAYS" value="T">T</input>
+						<input type="checkbox" name="DAYS" value="W">W</input>
+						<input type="checkbox" name="DAYS" value="Th">Th</input>
+						<input type="checkbox" name="DAYS" value="F">F</input>
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td align="right"><input type="submit" value="Send Request"></input></td>
+				</tr>
+
+			</table>
+		</form>
+		
+		<div style="position: fixed;bottom: 0; width: 100%; text-align: center;">
+		
+		<hr>
+
+		<p>123456 Death Row Ave. Cleveland Ohio 44455</p>
+		<p>555-444-3210</p>
+		</div>
+	</body>
+</html>

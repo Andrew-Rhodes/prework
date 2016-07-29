@@ -1,0 +1,73 @@
+.albumInfo, .bandHeader, .albumCover, td {
+	text-align: center;
+}
+
+@font-face {
+	font-family: "hammerHead";
+	src: url("HAMMERHEAD.ttf");
+}
+
+.bandHeader {
+	font-family: hammerHead, arial;
+	font-size: 30px;
+}
+
+.members {
+	font-style: italic;
+}
+
+.albumCover {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto; 
+	background-size: contain;
+	background-image: url("tremonti-cauterize.jpg");
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #99FF66;
+}
+
+a:active {
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+table td {
+	font-style: italic;
+	border: 1px solid black;
+}
+
+table {
+	border-color: black;
+	border-collapse: collapse;
+}
+
+.table-striped  tr:nth-child(even) {
+    background-color:#99FF66;
+}
+
+.table-striped  tr:nth-child(odd) {
+    background-color:#66CC00;
+}
+
+th {
+	text-align: center;
+	border: 1px solid black;
+}
+
+caption {
+	text-align: center;
+}
+
+.tracks {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}

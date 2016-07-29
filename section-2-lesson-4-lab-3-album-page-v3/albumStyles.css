@@ -1,0 +1,33 @@
+.albumInfo, .bandHeader, .albumCover, td {
+	text-align: center;
+}
+
+@font-face {
+	font-family: "hammerHead";
+	src: url("HAMMERHEAD.ttf");
+}
+
+.bandHeader {
+	font-family: hammerHead, arial;
+	font-size: 30px;
+}
+
+.members {
+	font-style: italic;
+}
+
+.albumCover {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto; 
+	background-size: contain;
+	background-image: url("tremonti-cauterize.jpg");
+}
+
+/*please let me know if using the background-size property
+ was the way to go for this example. 
+
+Without that property I could only get the upper left hand
+corner of the album cover to render.
+*/

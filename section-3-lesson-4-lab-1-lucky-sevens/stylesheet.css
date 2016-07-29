@@ -1,0 +1,30 @@
+.game {
+	text-align: center;
+}
+
+.play {
+	padding: 20px 40px 20px 40px;
+	margin: 20px;
+}
+
+table {
+	min-width: 40%;
+	padding: 10px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+table th {
+	text-decoration: underline;
+	font-size: 200%;
+}
+
+.starting {
+	background-color: #D1D0CE;
+}
+
+table td {
+	padding: 15px;
+}

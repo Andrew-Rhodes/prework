@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+
+.header {
+	text-align: center;
+	font-family: 'Black Ops One', arial;
+	font-size: 30px;
+}
+
+.nav a {
+	margin: 0px 30px;
+}
+
+.nav {
+	margin: 15px 0px;
+}
+.footer {
+	width: 100%;
+ 	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	background-color: white;
+}
+
+.item {
+	font-size: 25px;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.beverages {
+	padding-top: 10px;
+	margin-bottom: 100px;
+}
+
+.beverages table {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ff6600;
+}
+
+.beverages table caption {
+	background-color: #ff6600;
+	text-decoration: underline;
+	font-size: 25px
+}
+
+.beverages tbody td {
+	padding: 5px;
+}

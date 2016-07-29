@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yard Time</title>
+
+		<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+
+		<style type="text/css">
+			
+			form table {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			td {
+				padding: 10px;
+				text-align: right;
+			}
+
+			.radio {
+				text-align: left;
+			}
+
+			.select {
+				width: 95%;
+			}
+
+			.area {
+				height: 100px;
+			}
+
+			.info {
+				vertical-align: top;
+			}
+
+			.label {
+				font-weight: bold;
+			}
+	
+		</style>
+	</head>
+	
+
+	<body>
+		<div class="header">
+			<h1>Yard Time</h1>
+		</div>
+
+		<hr>
+		
+		<div class="nav">
+			<a href="homePageRestaurantSitev4.html">Home</a>
+			<a href="menuPageRestaurantSitev4.html">Menu</a>
+			<a href="contactUsPageRestaurantSitev4.html">Contact Us</a>
+		</div>
+
+		<hr>
+		
+		<form action="fakePage.html" method="POST">
+
+			<table>
+				<tr>
+					<td class="label">Name:</td>
+					<td><input type="text" name="NAME"></input></td>
+				</tr>
+
+				<tr>
+					<td class="label">Email:</td>
+					<td><input type="text" name="EMAIL"></input></td>
+				</tr>
+				
+				<tr>
+					<td class="label">Phone:</td>
+					<td><input type="text" name="PHONE"></input></td>
+				</tr>
+
+				<tr>
+					<td class="label">Reason for Inquiry</td>
+					<td>
+					<select name="INQUIRY" class="select">
+						<option value="CATERING">Catering</option>
+						<option value="PARTY">Private Party</option>
+						<option value="FEEDBACK">Feedback</option>
+						<option value="OTHER">Other</option>
+					</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="info label">Additional Information</td>
+					<td><textarea name="INFO" class="area"></textarea></td>
+				</tr>
+
+
+				<tr>
+					<td class="label">Have you been to the restaurant?</td>
+					<td class="radio">
+					<input type="radio" name="PATRON" value="NO" checked>No</input>
+					<input type="radio" name="PATRON" value="YES">Yes</input>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="label">Best days to contact you:</td>
+					<td>
+						<input type="checkbox" name="DAYS" value="M">M</input>
+						<input type="checkbox" name="DAYS" value="T">T</input>
+						<input type="checkbox" name="DAYS" value="W">W</input>
+						<input type="checkbox" name="DAYS" value="Th">Th</input>
+						<input type="checkbox" name="DAYS" value="F">F</input>
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Send Request"></input></td>
+				</tr>
+
+			</table>
+
+		</form>
+		
+
+		<div class="footer">
+		
+			<hr>
+		
+			<p>123456 Death Row Ave. Cleveland Ohio 44455</p>
+			<p>555-444-3210</p>
+		</div>
+	</body>
+</html>
